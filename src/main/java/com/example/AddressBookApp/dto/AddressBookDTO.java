@@ -4,11 +4,13 @@ public class AddressBookDTO {
     private Long id;
     private String name;
     private String phone;
+    private String email;
 
-    public AddressBookDTO(Long id, String name, String phone) {
+    public AddressBookDTO(Long id, String name, String phone, String email) {
         this.id = id;
         this.name = name;
         this.phone = phone;
+        this.email = email;
     }
 
     public Long getId() {
@@ -33,5 +35,13 @@ public class AddressBookDTO {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
