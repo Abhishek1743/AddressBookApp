@@ -1,0 +1,6 @@
+2025-03-08T23:14:07.144+05:30  INFO 6076 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 19 with PID 6076 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
+2025-03-08T23:14:07.146+05:30 DEBUG 6076 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-08T23:14:07.147+05:30  INFO 6076 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-03-08T23:14:11.251+05:30  WARN 6076 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-08T23:14:11.858+05:30  INFO 6076 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 5.225 seconds (process running for 5.746)
+2025-03-08T23:14:11.862+05:30  INFO 6076 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Address Book App Started
