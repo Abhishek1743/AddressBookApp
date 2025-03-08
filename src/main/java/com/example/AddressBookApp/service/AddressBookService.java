@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 public class AddressBookService implements AddressBookServiceInterface {
 
     @Autowired
-    private AddressRepository repository;
+    AddressRepository repository;
 
     // Retrieve all contacts
     @Override

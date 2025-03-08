@@ -12,7 +12,7 @@ import java.util.List;
 public class AddressBookController {
 
     @Autowired
-    private AddressBookService service;
+    AddressBookService service;
 
     //Get all contacts
     @GetMapping("/showcontacts")
