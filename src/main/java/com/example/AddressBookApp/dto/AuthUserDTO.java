@@ -1,4 +1,3 @@
-
 package com.example.AddressBookApp.dto;
 
 import jakarta.persistence.Column;
