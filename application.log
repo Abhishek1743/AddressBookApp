@@ -67,3 +67,16 @@ com.example.AddressBookApp.exception.UserException: Sorry! Email or Password is 
 2025-03-14 11:29:28 [http-nio-8080-exec-7] INFO  c.e.A.service.AddressBookService Saving new contact: com.example.AddressBookApp.dto.AddressBookDTO@7ee49501
 2025-03-14 11:29:28 [http-nio-8080-exec-7] INFO  c.e.A.service.AddressBookService Contact saved successfully with ID: 10
 2025-03-14 11:29:49 [http-nio-8080-exec-2] INFO  c.e.A.service.AddressBookService Fetching all contacts from the database.
+2025-03-14 11:47:31 [restartedMain] INFO  c.e.A.AddressBookAppApplication Starting AddressBookAppApplication using Java 19 with PID 4520 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
+2025-03-14 11:47:31 [restartedMain] DEBUG c.e.A.AddressBookAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-14 11:47:31 [restartedMain] INFO  c.e.A.AddressBookAppApplication The following 1 profile is active: "dev"
+2025-03-14 11:47:41 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-14 11:47:43 [restartedMain] INFO  c.e.A.AddressBookAppApplication Started AddressBookAppApplication in 12.895 seconds (process running for 13.97)
+2025-03-14 11:47:43 [restartedMain] INFO  c.e.A.AddressBookAppApplication Address Book App Started
+2025-03-14 11:47:51 [http-nio-8080-exec-2] INFO  c.e.A.service.AddressBookService Fetching all contacts from the database.
+2025-03-14 11:47:59 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationService Processing forgot password request for email: abhisheksagar1113@gmail.com
+2025-03-14 11:48:05 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationService Password updated successfully for email: abhisheksagar1113@gmail.com
+2025-03-14 11:48:08 [http-nio-8080-exec-4] INFO  c.e.A.service.AuthenticationService Resetting password for email: abhisheksagar1113@gmail.com
+2025-03-14 11:48:13 [http-nio-8080-exec-4] INFO  c.e.A.service.AuthenticationService Password reset successful for email: abhisheksagar1113@gmail.com
+2025-03-14 11:48:18 [http-nio-8080-exec-5] INFO  c.e.A.service.AuthenticationService Login attempt for email: abhisheksagar1113@gmail.com
+2025-03-14 11:48:18 [http-nio-8080-exec-5] INFO  c.e.A.service.AuthenticationService Login successful for user: abhisheksagar1113@gmail.com
