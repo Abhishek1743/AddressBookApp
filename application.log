@@ -1,152 +1,69 @@
-2025-03-13T15:31:56.136+05:30  INFO 13052 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 19 with PID 13052 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
-2025-03-13T15:31:56.148+05:30 DEBUG 13052 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-13T15:31:56.150+05:30  INFO 13052 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-03-13T15:32:04.715+05:30  WARN 13052 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-13T15:32:05.555+05:30  INFO 13052 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 10.282 seconds (process running for 11.237)
-2025-03-13T15:32:05.564+05:30  INFO 13052 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Address Book App Started
-2025-03-13T15:38:51.853+05:30  INFO 4580 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 19 with PID 4580 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
-2025-03-13T15:38:51.858+05:30 DEBUG 4580 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-13T15:38:51.859+05:30  INFO 4580 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-03-13T15:38:59.554+05:30  WARN 4580 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-13T15:39:00.450+05:30  INFO 4580 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 9.465 seconds (process running for 10.292)
-2025-03-13T15:39:00.457+05:30  INFO 4580 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Address Book App Started
-2025-03-13T15:41:43.106+05:30  WARN 4580 --- [AddressBookApp] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.example.AddressBookApp.dto.ResponseDTO> com.example.AddressBookApp.controller.AuthUserController.register(com.example.AddressBookApp.dto.AuthUserDTO) throws java.lang.Exception]
-2025-03-13T15:43:02.189+05:30  WARN 4580 --- [AddressBookApp] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.AddressBookApp.dto.ResponseDTO> com.example.AddressBookApp.controller.AuthUserController.register(com.example.AddressBookApp.dto.AuthUserDTO) throws java.lang.Exception: [Field error in object 'authUserDTO' on field 'password': rejected value [1234]; codes [Pattern.authUserDTO.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [authUserDTO.password,password]; arguments []; default message [password],[Ljakarta.validation.constraints.Pattern$Flag;@4b94079f,^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$]; default message [Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character]] ]
-2025-03-13T15:50:00.946+05:30  INFO 7772 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 19 with PID 7772 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
-2025-03-13T15:50:00.953+05:30 DEBUG 7772 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-13T15:50:00.955+05:30  INFO 7772 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-03-13T15:50:08.246+05:30  WARN 7772 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-13T15:50:09.083+05:30  INFO 7772 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 8.993 seconds (process running for 9.811)
-2025-03-13T15:50:09.090+05:30  INFO 7772 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Address Book App Started
-2025-03-13T15:58:59.023+05:30  INFO 22780 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 19 with PID 22780 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
-2025-03-13T15:58:59.028+05:30 DEBUG 22780 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-13T15:58:59.030+05:30  INFO 22780 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-03-13T15:59:06.662+05:30  WARN 22780 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-13T15:59:08.499+05:30  INFO 22780 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 10.353 seconds (process running for 11.186)
-2025-03-13T15:59:08.514+05:30  INFO 22780 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Address Book App Started
-2025-03-13T17:17:05.661+05:30  INFO 2268 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 19 with PID 2268 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
-2025-03-13T17:17:05.667+05:30 DEBUG 2268 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-13T17:17:05.668+05:30  INFO 2268 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-03-13T17:17:13.417+05:30  WARN 2268 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-13T17:17:14.921+05:30  INFO 2268 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 10.179 seconds (process running for 11.148)
-2025-03-13T17:17:14.935+05:30  INFO 2268 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Address Book App Started
-2025-03-13T17:19:43.160+05:30  INFO 3372 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 19 with PID 3372 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
-2025-03-13T17:19:43.165+05:30 DEBUG 3372 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-13T17:19:43.167+05:30  INFO 3372 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : No active profile set, falling back to 1 default profile: "default"
-2025-03-13T17:19:55.428+05:30  WARN 3372 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-13T17:19:57.444+05:30  INFO 3372 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 15.457 seconds (process running for 16.514)
-2025-03-13T17:19:57.460+05:30  INFO 3372 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Address Book App Started
-2025-03-13T17:22:33.154+05:30  WARN 3372 --- [AddressBookApp] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.AddressBookApp.dto.ResponseDTO> com.example.AddressBookApp.controller.AuthUserController.login(com.example.AddressBookApp.dto.LoginDTO): [Field error in object 'loginDTO' on field 'email': rejected value [null]; codes [NotNull.loginDTO.email,NotNull.email,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginDTO.email,email]; arguments []; default message [email]]; default message [Email is required]] ]
-2025-03-13T17:23:19.036+05:30 ERROR 3372 --- [AddressBookApp] [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned] with root cause
-
-org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 results were returned
-	at org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:298) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:281) ~[hibernate-core-6.6.8.Final.jar:6.6.8.Final]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:224) ~[spring-data-jpa-3.4.3.jar:3.4.3]
-	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:93) ~[spring-data-jpa-3.4.3.jar:3.4.3]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:152) ~[spring-data-jpa-3.4.3.jar:3.4.3]
-	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:140) ~[spring-data-jpa-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:170) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.3.jar:6.2.3]
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.3.jar:6.2.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.3.jar:6.2.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:136) ~[spring-data-jpa-3.4.3.jar:3.4.3]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
-	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.3.jar:6.2.3]
-	at jdk.proxy4/jdk.proxy4.$Proxy129.findByEmail(Unknown Source) ~[na:na]
-	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:52) ~[classes/:na]
-	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.lang.Thread.run(Thread.java:1589) ~[na:na]
-
-2025-03-13 22:28:21 [restartedMain] INFO  c.e.A.AddressBookAppApplication Starting AddressBookAppApplication using Java 19 with PID 12920 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
-2025-03-13 22:28:21 [restartedMain] DEBUG c.e.A.AddressBookAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-13 22:28:21 [restartedMain] INFO  c.e.A.AddressBookAppApplication No active profile set, falling back to 1 default profile: "default"
-2025-03-13 22:28:30 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-13 22:28:31 [restartedMain] INFO  c.e.A.AddressBookAppApplication Started AddressBookAppApplication in 10.425 seconds (process running for 11.493)
-2025-03-13 22:28:31 [restartedMain] INFO  c.e.A.AddressBookAppApplication Address Book App Started
-2025-03-13 22:29:48 [restartedMain] INFO  c.e.A.AddressBookAppApplication Starting AddressBookAppApplication using Java 19 with PID 14116 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
-2025-03-13 22:29:48 [restartedMain] DEBUG c.e.A.AddressBookAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-13 22:29:48 [restartedMain] INFO  c.e.A.AddressBookAppApplication No active profile set, falling back to 1 default profile: "default"
-2025-03-13 22:29:56 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-13 22:29:57 [restartedMain] INFO  c.e.A.AddressBookAppApplication Started AddressBookAppApplication in 9.613 seconds (process running for 10.794)
-2025-03-13 22:29:57 [restartedMain] INFO  c.e.A.AddressBookAppApplication Address Book App Started
-2025-03-13 22:30:33 [http-nio-8080-exec-2] INFO  c.e.A.service.AddressBookService Fetching all contacts from the database.
-2025-03-13 22:30:41 [http-nio-8080-exec-3] INFO  c.e.A.service.AddressBookService Updating contact with ID: 7
-2025-03-13 22:30:41 [http-nio-8080-exec-3] INFO  c.e.A.service.AddressBookService Contact updated successfully: com.example.AddressBookApp.model.AddressBookModel@4f52ec89
-2025-03-13 22:30:45 [http-nio-8080-exec-4] INFO  c.e.A.service.AuthenticationService Login attempt for email: abhisheksagar1113@gmail.com
-2025-03-13 22:30:46 [http-nio-8080-exec-4] INFO  c.e.A.service.AuthenticationService Login successful for user: abhisheksagar1113@gmail.com
-2025-03-13 22:31:05 [http-nio-8080-exec-5] INFO  c.e.A.service.AuthenticationService Processing forgot password request for email: abhisheksagar1113@gmail.com
-2025-03-13 22:31:10 [http-nio-8080-exec-5] INFO  c.e.A.service.AuthenticationService Password updated successfully for email: abhisheksagar1113@gmail.com
-2025-03-13 22:31:13 [http-nio-8080-exec-8] INFO  c.e.A.service.AuthenticationService Resetting password for email: abhisheksagar1113@gmail.com
-2025-03-13 22:31:18 [http-nio-8080-exec-8] INFO  c.e.A.service.AuthenticationService Password reset successful for email: abhisheksagar1113@gmail.com
-2025-03-13 22:41:10 [restartedMain] INFO  c.e.A.AddressBookAppApplication Starting AddressBookAppApplication using Java 19 with PID 4480 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
-2025-03-13 22:41:10 [restartedMain] DEBUG c.e.A.AddressBookAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-13 22:41:10 [restartedMain] INFO  c.e.A.AddressBookAppApplication No active profile set, falling back to 1 default profile: "default"
-2025-03-13 22:41:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-13 22:41:19 [restartedMain] INFO  c.e.A.AddressBookAppApplication Started AddressBookAppApplication in 9.362 seconds (process running for 10.234)
-2025-03-13 22:41:19 [restartedMain] INFO  c.e.A.AddressBookAppApplication Address Book App Started
-2025-03-13 22:41:22 [http-nio-8080-exec-1] INFO  c.e.A.service.AddressBookService Fetching all contacts from the database.
-2025-03-13 22:54:12 [restartedMain] INFO  c.e.A.AddressBookAppApplication Starting AddressBookAppApplication using Java 19 with PID 18300 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
-2025-03-13 22:54:12 [restartedMain] DEBUG c.e.A.AddressBookAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-03-13 22:54:12 [restartedMain] INFO  c.e.A.AddressBookAppApplication The following 1 profile is active: "dev"
-2025-03-13 22:54:20 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-13 22:54:21 [restartedMain] INFO  c.e.A.AddressBookAppApplication Started AddressBookAppApplication in 8.986 seconds (process running for 9.814)
-2025-03-13 22:54:21 [restartedMain] INFO  c.e.A.AddressBookAppApplication Address Book App Started
-2025-03-13 22:54:27 [http-nio-8080-exec-1] INFO  c.e.A.service.AddressBookService Fetching all contacts from the database.
-2025-03-13 22:54:32 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationService Login attempt for email: abhisheksagar1113@gmail.com
-2025-03-13 22:54:33 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationService Login successful for user: abhisheksagar1113@gmail.com
+2025-03-14 11:26:28 [restartedMain] INFO  c.e.A.AddressBookAppApplication Starting AddressBookAppApplication using Java 19 with PID 19764 (C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp\target\classes started by root in C:\Users\abhis\BL_2115000026\Spring Projects\AddressBookApp)
+2025-03-14 11:26:28 [restartedMain] DEBUG c.e.A.AddressBookAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-14 11:26:28 [restartedMain] INFO  c.e.A.AddressBookAppApplication The following 1 profile is active: "dev"
+2025-03-14 11:26:37 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-14 11:26:38 [restartedMain] INFO  c.e.A.AddressBookAppApplication Started AddressBookAppApplication in 11.177 seconds (process running for 12.397)
+2025-03-14 11:26:38 [restartedMain] INFO  c.e.A.AddressBookAppApplication Address Book App Started
+2025-03-14 11:26:59 [http-nio-8080-exec-2] INFO  c.e.A.service.AuthenticationService Login attempt for email: abhisheksagar1113@gmail.com
+2025-03-14 11:27:00 [http-nio-8080-exec-2] INFO  c.e.A.service.AuthenticationService Login successful for user: abhisheksagar1113@gmail.com
+2025-03-14 11:27:16 [http-nio-8080-exec-3] INFO  c.e.A.service.AuthenticationService Login attempt for email: abhisheksagar1113@gmail.com
+2025-03-14 11:27:16 [http-nio-8080-exec-3] WARN  c.e.A.service.AuthenticationService Login failed: Incorrect password for email: abhisheksagar1113@gmail.com
+2025-03-14 11:27:16 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.example.AddressBookApp.exception.UserException: Sorry! Email or Password is incorrect!] with root cause
+com.example.AddressBookApp.exception.UserException: Sorry! Email or Password is incorrect!
+	at com.example.AddressBookApp.service.AuthenticationService.login(AuthenticationService.java:68)
+	at com.example.AddressBookApp.controller.AuthUserController.login(AuthUserController.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2025-03-14 11:27:21 [http-nio-8080-exec-5] INFO  c.e.A.service.AuthenticationService Login attempt for email: abhisheksagar1113@gmail.com
+2025-03-14 11:27:21 [http-nio-8080-exec-5] INFO  c.e.A.service.AuthenticationService Login successful for user: abhisheksagar1113@gmail.com
+2025-03-14 11:27:48 [http-nio-8080-exec-6] INFO  c.e.A.service.AddressBookService Fetching all contacts from the database.
+2025-03-14 11:29:12 [http-nio-8080-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.example.AddressBookApp.controller.AddressBookController.createContact(com.example.AddressBookApp.dto.AddressBookDTO): [Field error in object 'addressBookDTO' on field 'phone': rejected value [12345]; codes [Pattern.addressBookDTO.phone,Pattern.phone,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.phone,phone]; arguments []; default message [phone],[Ljakarta.validation.constraints.Pattern$Flag;@75e99cef,^\d{10}$]; default message [Phone number must be exactly 10 digits]] ]
+2025-03-14 11:29:28 [http-nio-8080-exec-7] INFO  c.e.A.service.AddressBookService Saving new contact: com.example.AddressBookApp.dto.AddressBookDTO@7ee49501
+2025-03-14 11:29:28 [http-nio-8080-exec-7] INFO  c.e.A.service.AddressBookService Contact saved successfully with ID: 10
+2025-03-14 11:29:49 [http-nio-8080-exec-2] INFO  c.e.A.service.AddressBookService Fetching all contacts from the database.
