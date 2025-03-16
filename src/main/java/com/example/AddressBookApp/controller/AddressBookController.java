@@ -3,10 +3,12 @@ package com.example.AddressBookApp.controller;
 import com.example.AddressBookApp.dto.AddressBookDTO;
 import com.example.AddressBookApp.dto.ResponseDTO;
 import com.example.AddressBookApp.Interface.AddressBookServiceInterface;
+import com.example.AddressBookApp.service.MessageProducer;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController
@@ -14,7 +16,10 @@ import java.util.List;
 public class AddressBookController {
 
     @Autowired
-    AddressBookServiceInterface service;
+    private AddressBookServiceInterface service;
+
+    @Autowired
+    private MessageProducer messageProducer;  // Inject RabbitMQ Producer
 
     // Get all contacts
     @GetMapping("/showcontacts")
@@ -33,6 +38,10 @@ public class AddressBookController {
     @PostMapping("/create")
     public ResponseEntity<?> createContact(@Valid @RequestBody AddressBookDTO dto) {
         AddressBookDTO createdContact = service.saveContact(dto);
+
+        // Send the created contact details to RabbitMQ
+        messageProducer.sendMessage("New Contact Created: " + dto.toString());
+
         return ResponseEntity.ok(new ResponseDTO("Contact created successfully", createdContact));
     }
 
@@ -51,5 +60,12 @@ public class AddressBookController {
         return (service.deleteContact(id))
                 ? ResponseEntity.noContent().build()
                 : ResponseEntity.notFound().build();
+    }
+
+    // Send Contact Details to RabbitMQ
+    @PostMapping("/sendToQueue")
+    public ResponseEntity<String> sendToQueue(@RequestBody AddressBookDTO dto) {
+        messageProducer.sendMessage("Contact Info: " + dto.toString());
+        return ResponseEntity.ok("Contact sent to RabbitMQ successfully");
     }
 }
